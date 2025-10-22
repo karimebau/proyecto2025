@@ -24,6 +24,10 @@ import com.google.android.gms.wearable.MessageEvent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
+
 class MainActivity : AppCompatActivity(),
 CoroutineScope by MainScope(),
 DataClient.OnDataChangedListener,

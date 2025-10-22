@@ -59,4 +59,5 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+    implemetantion ("com.squareuo.okhttp3:okhttp:4.12.0")
 }
